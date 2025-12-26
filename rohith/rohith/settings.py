@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dhinesh.urls'
+ROOT_URLCONF = 'rohith.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dhinesh.wsgi.application'
+WSGI_APPLICATION = 'rohith.wsgi.application'
 
 
 # Database
@@ -115,8 +115,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / 'static/galleryapp']
-
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'static/galleryapp')]
 # Media files (Uploads)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'

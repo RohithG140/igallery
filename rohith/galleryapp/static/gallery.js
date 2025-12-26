@@ -1,13 +1,17 @@
  var gallery = [
-    { src: "Ballerina Cappuccina.jpg" },
-    { src: "Bombardiro Crocodilo.jpg" },
-    { src: "Bombombini Gusini.jpg" },
-    { src: "Capuchino Assassino.jpg" },
-    { src: "Chimpanzini Bananini.jpg" },
-    { src: "Lirili Larila.jpg" },
-    { src: "Brr Brr Patapim.jpg" },
-    { src: "Tralalerlo Tralala.jpg" },
-    { src: "Tung Tung Tung Sahur.jpg" },
+    { src: "ben.png.jpeg" },
+    { src: "diamond.jpeg" },
+    { src: "alien x.png.jpeg" },
+    { src: "atomix.png.jpeg" },
+    { src: "bloxx.png.jpeg" },
+    { src: "ghost.jpeg" },
+    { src: "way big.png.jpeg" },
+    { src: "gravattack.png.jpeg" },
+    { src: "hopper.jpeg" },
+    { src: "rath.jpeg" },
+    { src:"shocksquatch.jpeg"},
+    { src:"malware.jpeg"},
+    { src:"vilgax.jpeg"}
 
 ];
 
